@@ -1,27 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
 }
 
-.cryptoapp{
-    font-family: "Black Han Sans", sans-serif;
+.cryptoapp {
+  font-family: "Black Han Sans", sans-serif;
 }
 
-@media (width >= 768px){
-    .w-md-50{
-        width: 50%;
-    }
+.img-carousel {
+  height: 250px;
+  object-fit: cover;
 }
 
-@media (width >= 992px){
-    .w-lg-25{
-        width: 25%;
-    }
+@media (width >= 768px) {
+  .w-md-50 {
+    width: 50%;
+  }
+}
+
+@media (width >= 992px) {
+  .w-lg-25 {
+    width: 25%;
+  }
+}
+
+@media (width >= 768px) {
+  .img-carousel {
+    height: 350px;
+  }
+}
+
+@media (width >= 992px) {
+  .img-carousel {
+    height: 500px;
+  }
+
+  .img-carousel-celular{
+    object-position: 50% 80%;
+  }
 }
