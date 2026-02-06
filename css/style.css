@@ -13,3 +13,15 @@ main{
 .cryptoapp{
     font-family: "Black Han Sans", sans-serif;
 }
+
+@media (width >= 768px){
+    .w-md-50{
+        width: 50%;
+    }
+}
+
+@media (width >= 992px){
+    .w-lg-25{
+        width: 25%;
+    }
+}
