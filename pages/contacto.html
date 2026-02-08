@@ -64,66 +64,83 @@
       <h1 class="text-center cryptoapp my-5">Contacto</h1>
     </header>
     <main>
-      <section class="container-fluid row">
-        <article class="pt-4 pb-5">
-          <form class="col-md-6">
-            <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre y Apellido *</label>
-              <input
-                type="text"
-                class="form-control"
-                id="nombre"
-                minlength="3"
-                maxlength="100"
-                required
-                placeholder="Juan Perez"
-              />
-            </div>
+      <section class="container">
+        <div class="row">
+          <article class="pt-4 pb-5 col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nombre" class="form-label"
+                  >Nombre y Apellido *</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombre"
+                  minlength="3"
+                  maxlength="100"
+                  required
+                  placeholder="Juan Perez"
+                />
+              </div>
 
-            <div class="mb-3">
-              <label for="email" class="form-label">Email *</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                minlength="3"
-                maxlength="100"
-                required
-                placeholder="juanperez@mail.com"
-              />
-            </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email *</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  minlength="3"
+                  maxlength="100"
+                  required
+                  placeholder="juanperez@mail.com"
+                />
+              </div>
 
-            <div class="mb-3">
-              <label for="telefono" class="form-label">Telefono</label>
-              <input
-                type="tel"
-                class="form-control"
-                id="telefono"
-                maxlength="12"
-                placeholder="+54388222999"
-              />
-            </div>
+              <div class="mb-3">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="telefono"
+                  maxlength="12"
+                  placeholder="+54388222999"
+                />
+              </div>
 
-            <div class="mb-3">
-              <label for="mensaje" class="form-label"
-                >Ingrese su consulta *</label
-              >
-              <textarea
-                class="form-control"
-                id="mensaje"
-                rows="3"
-                minlength="10"
-                maxlength="500"
-                required
-                placeholder="Agrega tu consulta de hasta 500 caracteres"
-              ></textarea>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label"
+                  >Ingrese su consulta *</label
+                >
+                <textarea
+                  class="form-control"
+                  id="mensaje"
+                  rows="3"
+                  minlength="10"
+                  maxlength="500"
+                  required
+                  placeholder="Agrega tu consulta de hasta 500 caracteres"
+                ></textarea>
+              </div>
+              <p class="text-secondary-emphasis">
+                Los campos con (*) son obligatorios
+              </p>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </article>
+
+          <article class="col-md-6 mt-4">
+            <div class="ratio ratio-4x3">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.901675577983!2d-65.19034558829871!3d-26.779403976629766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225f00347da979%3A0x22842424260b8595!2sCasa%20de%20Ulayse!5e0!3m2!1ses-419!2sar!4v1770520122848!5m2!1ses-419!2sar"
+              
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
             </div>
-            <p class="text-secondary-emphasis">
-              Los campos con (*) son obligatorios
-            </p>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-        </article>
+          </article>
+        </div>
       </section>
     </main>
     <footer class="bg-secondary-subtle">
